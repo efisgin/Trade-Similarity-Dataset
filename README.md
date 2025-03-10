@@ -21,9 +21,9 @@ Variables
 period : year variable
 country_pair : 3-letter ISO 3166-1 alpha-3 country codes (Note: for PSI this will be indicated as  Exporting Country->Importing Country ex. DEU->FRA where exports of Germany are mateched with imports of France).
 aggr_level : the level of SITC commodity codes used to aggregate to final index (1-5 digits)
-ESI : Export Similarity Index
-PSI : Partner Similarity Index
-EUC_Similarity: 1- Euclidean Distance
+esi : Export Similarity Index
+psi : Partner Similarity Index
+euc_similarity: 1- Euclidean Distance
 ```
 
 All data is from [UNComtrade](https://comtradeplus.un.org/). 
