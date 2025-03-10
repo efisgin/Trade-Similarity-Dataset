@@ -19,7 +19,7 @@ For any questions or feedback, please reach out to ece.fisgin@gmail.com.
 ```
 Variables
 period : year variable
-reporter_iso : 3-letter ISO 3166-1 alpha-3 country codes
+country_pair : 3-letter ISO 3166-1 alpha-3 country codes (Note: for PSI this will be indicated as  Exporting Country->Importing Country ex. DEU->FRA where exports of Germany are mateched with imports of France).
 aggr_level : the level of SITC commodity codes used to aggregate to final index (1-5 digits)
 ESI : Export Similarity Index
 PSI : Partner Similarity Index
