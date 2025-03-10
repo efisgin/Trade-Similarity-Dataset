@@ -26,9 +26,9 @@ psi : Partner Similarity Index
 euc_similarity: 1- Euclidean Distance
 ```
 
-All data is from [UNComtrade](https://comtradeplus.un.org/). 
+All data is from [UN Comtrade](https://comtradeplus.un.org/). 
 
-Our dataset comprises of countries included in the [World Input-Output Database](https://www.rug.nl/ggdc/valuechain/wiod/?lang=en), which includes 43 countries. We have chosen to additionally include Vietnam in our dataset.
+Our dataset comprises of countries included in the [World Input-Output Database](https://www.rug.nl/ggdc/valuechain/wiod/?lang=en), which includes 43 countries. We have chosen to additionally include Vietnam in our dataset. The dataset spans from 1962 to 2023 for each country pair, in accordance with the data availability from UN Comtrade. Data for 2024 will be updated shortly.
 
 [Reporters](https://comtradeapi.un.org/files/v1/app/reference/Reporters.json) documentation is available for the full list of ISO 3166-1 alpha-3 codes available in UNComtrade, and their respective country names. Please note, as the closest approximation possible to Taiwan's trade values, we have used S19, "Other Asia, not elsewhere specified".
 
