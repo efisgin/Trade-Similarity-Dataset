@@ -40,9 +40,10 @@ The **Export Similarity Index (ESI)** is computed as   $\quad ESI_{AB} = 100 * \
 Where:
 - $X_{i,A}$ represents <small>Country A's total exports to all countries in sector $i$</small>,
 - $X_A$ represents <small>Country A's total exports to all countries globally</small>,
-- $M_{i,B}$ represents <small>Country B's total imports from all countries in sector $i$</small>,
-- $M_B$ represents <small>Country B's total imports from all countries globally</small>.
+- $X_{i,B}$ represents <small>Country B's total imports from all countries in sector $i$</small>,
+- $X_B$ represents <small>Country B's total imports from all countries globally </small>.
 
+All total trade values are calculated within each SITC digit level, for example, at the 2-digit or 3-digit SITC level.
 
 The **Partner Similarity Index (PSI)** is given by   $\quad  PSI_{AB} = 100 * \sum_{i=1}^{N} \min \left(\frac{X_{i,A}}{X_A}, \frac{M_{i,B}}{M_B}\right)$
 
