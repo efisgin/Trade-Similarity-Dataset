@@ -35,7 +35,7 @@ Please see [Reporters](https://comtradeapi.un.org/files/v1/app/reference/Reporte
 
 To construct the dataset, we use Finger and Kreinin (1979)'s Export Similarity Index. 
 
-The **Export Similarity Index (ESI)** is given by   $\quad ESI_{AB} = 100 * \sum_{i=1}^{N} \min \left(\frac{X_{i,A}}{X_A}, \frac{X_{i,B}}{X_B}\right)$
+The **Export Similarity Index (ESI)** is computed as   $\quad ESI_{AB} = 100 * \sum_{i=1}^{N} \min \left(\frac{X_{i,A}}{X_A}, \frac{X_{i,B}}{X_B}\right)$
 
 Where:
 - $X_{i,A}$ represents <small>Country A's total exports to all countries in sector $i$</small>,
@@ -50,6 +50,8 @@ Where:
 - $M_{i,B}$ represents Country B's total imports from all countries in sector $i$,
 - $M_B$ represents Country B's total imports from all countries globally.
 
-The **Euclidean Export Similarity Index** formula is given by $\quad ESI_{AB}^{\text{Eucl}} = 1 - \sqrt{\sum_{i=1}^{N} \left(\frac{X_{i,A}}{X_A} - \frac{X_{i,B}}{X_B}\right)^2}$. The other formulation of the **Euclidean Partner Similarity Index** is given by  $\quad PSI_{AB}^{\text{Eucl}} = 1 - \sqrt{\sum_{i=1}^{N} \left(\frac{X_{i,A}}{X_A} - \frac{M_{i,B}}{M_B}\right)^2}$
+The **Euclidean Export Similarity Index** formula is given by $\quad ESI_{AB}^{\text{Eucl}} = 1 - \sqrt{\sum_{i=1}^{N} \left(\frac{X_{i,A}}{X_A} - \frac{X_{i,B}}{X_B}\right)^2}$. 
+
+The **Euclidean Partner Similarity Index** is given by  $\quad PSI_{AB}^{\text{Eucl}} = 1 - \sqrt{\sum_{i=1}^{N} \left(\frac{X_{i,A}}{X_A} - \frac{M_{i,B}}{M_B}\right)^2}$
 
 
