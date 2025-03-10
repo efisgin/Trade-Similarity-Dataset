@@ -1,4 +1,4 @@
-## Dataset Usage Feedback
+## Dataset Usage Information
 
 This dataset is available for public use. If you plan to use the dataset, we ask that you kindly fill out the following form to help us understand the usage:
 
