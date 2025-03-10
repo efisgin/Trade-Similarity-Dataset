@@ -20,7 +20,7 @@ All data is from [UNComtrade](https://comtradeplus.un.org/).
 
 Our dataset comprises of countries included in the [World Input-Output Database](https://www.rug.nl/ggdc/valuechain/wiod/?lang=en), which includes 43 countries. We have chosen to additionally include Vietnam in our dataset.
 
-Please see [Reporters]https://comtradeapi.un.org/files/v1/app/reference/Reporters.json] for the full list of ISO 3166-1 alpha-3 codes available in UNComtrade, and their respective country names.
+Please see [Reporters](https://comtradeapi.un.org/files/v1/app/reference/Reporters.json) for the full list of ISO 3166-1 alpha-3 codes available in UNComtrade, and their respective country names.
 
 
 To construct the dataset, we use Finger and Kreinin (1979)'s Export Similarity Index. 
