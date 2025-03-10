@@ -1,10 +1,6 @@
-## Dataset Information
+## Dataset Usage Feedback
 
 This dataset is available for public use. If you plan to use the dataset, we ask that you kindly fill out the following form to help us understand the usage:
-
-### Dataset Usage Feedback
-
-Please indicate what you will be using this dataset for by completing the following Google Form:
 
 [Dataset Usage Form](https://docs.google.com/forms/d/e/1FAIpQLSdjSekVJt4WR-rVTtPl_DAwa4muYZdssoQJIs2bh1kHteojcA/viewform?usp=header)
 
