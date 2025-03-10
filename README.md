@@ -1,6 +1,21 @@
-To cite the dataset, please use
+## Dataset Information
+
+This dataset is available for public use. If you plan to use the dataset, we ask that you kindly fill out the following form to help us understand the usage:
+
+### Dataset Usage Feedback
+
+Please indicate what you will be using this dataset for by completing the following Google Form:
+
+- [Dataset Usage Form](https://your-google-form-link-here)
+
+Please cite it as follows:
 
 de Soyres, Francois, Ece Fisgin, Alexandre Gaillard, Ana Maria Santacreu, and Henry Young (2025). "The Sectoral Evolution of China's Trade," FEDS Notes. Washington: Board of Governors of the Federal Reserve System, February 28, 2025, https://doi.org/10.17016/2380-7172.3713. [Link to article](https://www.federalreserve.gov/econres/notes/feds-notes/the-sectoral-evolution-of-chinas-trade-20250228.html)
+
+For any questions or feedback, please reach out to ece.fisgin@gmail.com.
+
+
+---
 
 
 # Trade Similarity Dataset
@@ -41,4 +56,5 @@ Where:
 - $M_B$ represents Country B's total imports from all countries globally.
 
 The **Euclidean Export Similarity Index** formula is given by $\quad ESI_{AB}^{\text{Eucl}} = 1 - \sqrt{\sum_{i=1}^{N} \left(\frac{X_{i,A}}{X_A} - \frac{X_{i,B}}{X_B}\right)^2}$. The other formulation of the **Euclidean Partner Similarity Index** is given by  $\quad PSI_{AB}^{\text{Eucl}} = 1 - \sqrt{\sum_{i=1}^{N} \left(\frac{X_{i,A}}{X_A} - \frac{M_{i,B}}{M_B}\right)^2}$
+
 
