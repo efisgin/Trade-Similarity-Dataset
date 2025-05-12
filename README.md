@@ -24,7 +24,8 @@ country_pair : 3-letter ISO 3166-1 alpha-3 country codes (Note: for PSI this wil
 aggr_level : the level of SITC commodity codes used to aggregate to final index (1-5 digits)
 esi : Export Similarity Index
 psi : Partner Similarity Index
-euc_similarity: 1- Euclidean Distance
+euc_esi: 1 - Euclidean distance between export shares
+euc_psi: 1 - Euclidean distance between export and import shares 
 ```
 
 All data is from [UN Comtrade](https://comtradeplus.un.org/). 
