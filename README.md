@@ -11,6 +11,7 @@ de Soyres, Francois, Ece Fisgin, Alexandre Gaillard, Ana Maria Santacreu, and He
 For any questions or feedback, please reach out to ece.fisgin@gmail.com.
 
 05-12-2025 Update: Certain issues related to mosCode and motCode were fixed, along with the Euro area aggregate ("EUA").
+06-12-2025 Update: Fixes for Euro area aggregate ("EUA").
 
 ---
 
